@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jiemian"
+    tools:context="com.example.administrator.children_game.game3_8">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="159dp"
+        android:layout_height="348dp"
+        app:srcCompat="@drawable/game3_8_2"
+        android:layout_marginLeft="113dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="236dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="313dp"
+        android:layout_height="306dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fengche" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="284dp"
+        android:layout_height="77dp"
+        android:text="请让纸片转起来"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+
+</android.support.constraint.ConstraintLayout>
